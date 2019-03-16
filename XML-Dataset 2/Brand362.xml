@@ -1,0 +1,50 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand362.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand362.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2304</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tooyumm</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1777</xmin>
+			<ymin>949</ymin>
+			<xmax>2296</xmax>
+			<ymax>1316</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tooyumm</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2458</xmin>
+			<ymin>21</ymin>
+			<xmax>2796</xmax>
+			<ymax>678</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Bisleri</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>114</xmin>
+			<ymin>1330</ymin>
+			<xmax>509</xmax>
+			<ymax>1778</ymax>
+		</bndbox>
+	</object>
+</annotation>

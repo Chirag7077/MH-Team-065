@@ -1,0 +1,38 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand384.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand384.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2304</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tooyumm</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>752</xmin>
+			<ymin>1183</ymin>
+			<xmax>1248</xmax>
+			<ymax>1645</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tooyumm</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3091</xmin>
+			<ymin>578</ymin>
+			<xmax>3329</xmax>
+			<ymax>930</ymax>
+		</bndbox>
+	</object>
+</annotation>

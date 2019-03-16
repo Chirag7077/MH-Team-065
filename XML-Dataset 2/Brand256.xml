@@ -1,0 +1,38 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand256.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand256.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4608</width>
+		<height>3456</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Lays</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3387</xmin>
+			<ymin>1751</ymin>
+			<xmax>3850</xmax>
+			<ymax>2414</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Coca-Cola</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3498</xmin>
+			<ymin>920</ymin>
+			<xmax>3877</xmax>
+			<ymax>1756</ymax>
+		</bndbox>
+	</object>
+</annotation>

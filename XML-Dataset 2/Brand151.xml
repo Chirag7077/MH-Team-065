@@ -1,0 +1,38 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand151.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand151.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3456</width>
+		<height>4608</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bisleri</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>421</xmin>
+			<ymin>757</ymin>
+			<xmax>2178</xmax>
+			<ymax>2164</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Bisleri</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1857</xmin>
+			<ymin>335</ymin>
+			<xmax>3135</xmax>
+			<ymax>1064</ymax>
+		</bndbox>
+	</object>
+</annotation>

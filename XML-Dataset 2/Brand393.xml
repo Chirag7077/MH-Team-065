@@ -1,0 +1,50 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand393.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand393.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2304</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tooyumm</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>595</xmin>
+			<ymin>259</ymin>
+			<xmax>909</xmax>
+			<ymax>473</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tooyumm</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3024</xmin>
+			<ymin>540</ymin>
+			<xmax>3458</xmax>
+			<ymax>797</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>kurkure</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2115</xmin>
+			<ymin>278</ymin>
+			<xmax>2538</xmax>
+			<ymax>445</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand045.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand045.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Lays</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1459</xmin>
+			<ymin>1847</ymin>
+			<xmax>1940</xmax>
+			<ymax>2447</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lays</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1440</xmin>
+			<ymin>765</ymin>
+			<xmax>2090</xmax>
+			<ymax>1584</ymax>
+		</bndbox>
+	</object>
+</annotation>

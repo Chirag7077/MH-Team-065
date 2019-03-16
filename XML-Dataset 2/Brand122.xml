@@ -1,0 +1,38 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand122.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand122.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bisleri</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1318</xmin>
+			<ymin>1279</ymin>
+			<xmax>1940</xmax>
+			<ymax>2515</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Bisleri</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2845</xmin>
+			<ymin>365</ymin>
+			<xmax>3536</xmax>
+			<ymax>888</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand034.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand034.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>2000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kurkure</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>572</xmin>
+			<ymin>1024</ymin>
+			<xmax>1086</xmax>
+			<ymax>1152</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>kurkure</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1540</xmin>
+			<ymin>465</ymin>
+			<xmax>2009</xmax>
+			<ymax>1061</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>kurkure</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>490</xmin>
+			<ymin>220</ymin>
+			<xmax>1186</xmax>
+			<ymax>788</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand386.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand386.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2304</width>
+		<height>4096</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tooyumm</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1751</xmin>
+			<ymin>1170</ymin>
+			<xmax>1989</xmax>
+			<ymax>1545</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>kurkure</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1451</xmin>
+			<ymin>2638</ymin>
+			<xmax>1783</xmax>
+			<ymax>2970</ymax>
+		</bndbox>
+	</object>
+</annotation>

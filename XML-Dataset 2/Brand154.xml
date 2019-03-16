@@ -1,0 +1,38 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand154.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand154.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepsi</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1504</xmin>
+			<ymin>1215</ymin>
+			<xmax>2004</xmax>
+			<ymax>1761</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pepsi</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2331</xmin>
+			<ymin>1974</ymin>
+			<xmax>2840</xmax>
+			<ymax>2406</ymax>
+		</bndbox>
+	</object>
+</annotation>

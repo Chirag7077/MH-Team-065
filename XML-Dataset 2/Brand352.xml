@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand352.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand352.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2304</width>
+		<height>4096</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tooyumm</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>620</xmin>
+			<ymin>1113</ymin>
+			<xmax>1876</xmax>
+			<ymax>1726</ymax>
+		</bndbox>
+	</object>
+</annotation>
