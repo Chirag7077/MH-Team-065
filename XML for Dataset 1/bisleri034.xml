@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Bisleri2</folder>
+	<filename>bisleri034.jpeg</filename>
+	<path>/home/milan/Desktop/Bisleri2/bisleri034.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>259</width>
+		<height>194</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bisleri</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>40</xmin>
+			<ymin>126</ymin>
+			<xmax>78</xmax>
+			<ymax>136</ymax>
+		</bndbox>
+	</object>
+</annotation>

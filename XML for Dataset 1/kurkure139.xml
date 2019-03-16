@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Datasets</folder>
+	<filename>kurkure139.jpg</filename>
+	<path>C:\Users\diya\Desktop\Datasets\kurkure139.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>265</width>
+		<height>190</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kurkure</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>20</ymin>
+			<xmax>208</xmax>
+			<ymax>115</ymax>
+		</bndbox>
+	</object>
+</annotation>
