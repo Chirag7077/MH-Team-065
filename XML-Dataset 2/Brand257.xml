@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand257.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand257.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4608</width>
+		<height>3456</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kurkure</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3319</xmin>
+			<ymin>2556</ymin>
+			<xmax>4067</xmax>
+			<ymax>3456</ymax>
+		</bndbox>
+	</object>
+</annotation>

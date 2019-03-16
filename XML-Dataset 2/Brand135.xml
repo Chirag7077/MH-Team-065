@@ -1,0 +1,50 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand135.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand135.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bisleri</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1268</xmin>
+			<ymin>1015</ymin>
+			<xmax>2154</xmax>
+			<ymax>1620</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Bisleri</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2304</xmin>
+			<ymin>1288</ymin>
+			<xmax>3095</xmax>
+			<ymax>1656</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Coca-Cola</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3031</xmin>
+			<ymin>1179</ymin>
+			<xmax>3413</xmax>
+			<ymax>1406</ymax>
+		</bndbox>
+	</object>
+</annotation>
