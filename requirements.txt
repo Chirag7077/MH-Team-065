@@ -1,0 +1,12 @@
+tensorflow
+opencv
+pyqt5
+jupyter
+numpy
+optimize-images
+pillow
+protobuf
+urllib3
+requests
+scipy
+scikit-learn
