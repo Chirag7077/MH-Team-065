@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MasterImages - Brand</folder>
+	<filename>Brand121.jpg</filename>
+	<path>/home/chirag/MasterImages - Brand/Brand121.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4608</width>
+		<height>3456</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Coca-Cola</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3335</xmin>
+			<ymin>1172</ymin>
+			<xmax>3450</xmax>
+			<ymax>1530</ymax>
+		</bndbox>
+	</object>
+</annotation>
