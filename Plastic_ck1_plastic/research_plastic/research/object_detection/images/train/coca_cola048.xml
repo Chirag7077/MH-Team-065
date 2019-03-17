@@ -1,0 +1,26 @@
+<annotation>
+	<folder>co-cola</folder>
+	<filename>coca_cola048.jpeg</filename>
+	<path>/home/milan/Desktop/co-cola/coca_cola048.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>275</width>
+		<height>183</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Coca-Cola</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>133</xmin>
+			<ymin>52</ymin>
+			<xmax>163</xmax>
+			<ymax>124</ymax>
+		</bndbox>
+	</object>
+</annotation>
