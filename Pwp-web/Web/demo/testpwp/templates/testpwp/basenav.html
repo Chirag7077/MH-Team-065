@@ -1,0 +1,179 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="{% static 'land/img/logo.png' %}">
+	
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>PWP_21</title>
+	<style type="text/css">
+		body {
+		  margin: 0;
+		  font-family: Helvetica, sans-serif;
+		  background-color: #f4f4f4;
+		  background-image: url('http://i.cubeupload.com/NjsJx8.png');
+		}
+
+		a {
+		  color: #000;
+		}
+
+		/* header */
+
+		.header {
+		  background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+		  background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+		  background: linear-gradient(to right, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+		  /*box-shadow: 0px 3px 3px rgba(0,0,0,0.7);*/
+		  box-shadow: 1px 2px 7px 0 rgba(0,0,0,.4);
+		  position: fixed;
+		  width: 100%;
+		  z-index: 3;
+		}
+
+		.header ul {
+		  margin: 0;
+		  padding: 0;
+		  list-style: none;
+		  overflow: hidden;
+		  background-color: transparent;
+		}
+
+		.header li a {
+		  display: block;
+		  padding: 20px 20px;
+		  color: rgba(255,255,255,0.5);
+		  /*border-right: 2px solid #f1f1f1;*/
+		  text-decoration: none;
+		}
+
+		.header li a:hover,
+		.header .menu-btn:hover {
+		  background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+		  background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+		  background: linear-gradient(to right, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+		  box-shadow: 0px 3px 3px rgba(0,0,0,0.7);
+		}
+
+		.header .logo {
+		  display: block;
+		  float: left;
+		  font-size: 2em;
+		  color: rgba(255,255,255,0.7);
+		  padding: 10px 20px;
+		  text-decoration: none;
+		}
+
+		/* menu */
+
+		.header .menu {
+		  clear: both;
+		  max-height: 0;
+		  transition: max-height .2s ease-out;
+		}
+
+		/* menu icon */
+
+		.header .menu-icon {
+		  cursor: pointer;
+		  display: inline-block;
+		  float: right;
+		  padding: 28px 20px;
+		  position: relative;
+		  user-select: none;
+		}
+
+		.header .menu-icon .navicon {
+		  background: #333;
+		  display: block;
+		  height: 2px;
+		  position: relative;
+		  transition: background .2s ease-out;
+		  width: 18px;
+		}
+
+		.header .menu-icon .navicon:before,
+		.header .menu-icon .navicon:after {
+		  background: #333;
+		  content: '';
+		  display: block;
+		  height: 100%;
+		  position: absolute;
+		  transition: all .2s ease-out;
+		  width: 100%;
+		}
+
+		.header .menu-icon .navicon:before {
+		  top: 5px;
+		}
+
+		.header .menu-icon .navicon:after {
+		  top: -5px;
+		}
+
+		/* menu btn */
+
+		.header .menu-btn {
+		  display: none;
+		}
+
+		.header .menu-btn:checked ~ .menu {
+		  max-height: 240px;
+		}
+
+		.header .menu-btn:checked ~ .menu-icon .navicon {
+		  background: transparent;
+		}
+
+		.header .menu-btn:checked ~ .menu-icon .navicon:before {
+		  transform: rotate(-45deg);
+		}
+
+		.header .menu-btn:checked ~ .menu-icon .navicon:after {
+		  transform: rotate(45deg);
+		}
+
+		.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+		.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+		  top: 0;
+		}
+
+		/* 48em = 768px */
+
+		@media (min-width: 48em) {
+		  .header li {
+		    float: left;
+		  }
+		  .header li a {
+		    padding: 20px 30px;
+		  }
+		  .header .menu {
+		    clear: none;
+		    float: right;
+		    max-height: none;
+		  }
+		  .header .menu-icon {
+		    display: none;
+		  }
+		}
+
+	</style>
+</head>
+<body>
+<header class="header">
+  <a href="/" class="logo">PWP_21</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+  	<li><a href="/modal/">CKPT1</a></li>
+    <li><a href="/brand/">CKPT2</a></li>
+    <li><a href="/profiling/">Profiling</a></li>
+    <!-- <li><a href="#contact">Contact</a></li> -->
+  </ul>
+</header>
+{% block content%}
+{% endblock %}
+</body>
+</html>

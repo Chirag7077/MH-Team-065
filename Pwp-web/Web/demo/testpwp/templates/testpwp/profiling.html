@@ -1,0 +1,123 @@
+{% extends 'testpwp/basenav.html' %}
+{% load staticfiles %}
+
+ {% block content %}
+ <!DOCTYPE html>
+ <html>
+ <head>
+   <title>Profiling</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+ </head>
+ <body>
+  <br><br><br><br>
+  <div class="container-fluid">
+    <div class="row" style="float: none;margin-left: auto;margin-right: auto">
+      <div class="col-sm-9 col-md-8 col-lg-2 col-xl-12">
+        <canvas id="bar-chart"></canvas>
+      </div>
+    </div>
+    <br><hr>
+    <div class="row">
+      <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5" style="float: none;margin-left: auto;margin-right: auto">
+        <canvas id="pie-chart"></canvas>
+      </div>
+    </div>
+    <br><hr>
+    <div class="row">
+      <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10" style="float: none;margin-left: auto;margin-right: auto">
+        <canvas id="bar-chart-grouped"></canvas>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var data_contri = {{ average_contributions|safe }};
+    var data_count = {{ total_counts|safe }};
+    // var data_ipw = {{ individual_pw|safe }};
+    // console.log( data_ipw );
+    // console.log(data_contri);
+    // console.log(data_count);
+    var i_p = {{ individual_p|safe }};
+    var i_w = {{ individual_w|safe }};
+    // console.log(i_p);
+    // console.log(i_w);
+    new Chart(document.getElementById("bar-chart"), {
+        type: 'horizontalBar',
+        data: {
+          labels: ["Plastic", "Wrapper", "Kurkure", "Too_Yumm", "Bisleri"],
+          datasets: [
+            {
+              label: "Total (Counts)",
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+              data: data_count
+            }
+          ]
+        },
+        options: {
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Major Contributions'
+          }
+        }
+    });
+    new Chart(document.getElementById("pie-chart"), {
+        type: 'pie',
+        data: {
+          labels: ["Plastic", "Wrapper", "Kurkure", "Too_Yumm", "Bisleri"],
+          datasets: [{
+            label: "Total Counts",
+            backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+            data: data_contri
+          }]
+        },
+        options: {
+          title: {
+            display: true,
+            text: 'Frequency'
+          }
+        }
+    });
+    new Chart(document.getElementById("bar-chart-grouped"), {
+        type: 'bar',
+        data: {
+          labels: ["image1", "image2", "image3", "image4"],
+          datasets: [
+            {
+              label: "Plastic",
+              backgroundColor: "#3e95cd",
+              data: [3,4,2,3]
+            }, {
+              label: "Wrapper",
+              backgroundColor: "#8e5ea2",
+              data: [6,2,4,7]
+            }
+          ]
+        },
+        options: {
+          title: {
+            display: true,
+            text: 'Population growth (millions)'
+          },
+          scales: {
+                  yAxes: [{
+                      display: true,
+                      ticks: {
+                          suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+                          // OR //
+                          beginAtZero: true   // minimum value will be 0.
+                      }
+                  }]
+              }
+        }
+
+    });
+  </script>
+ </body>
+ </html>
+ {% endblock %}
