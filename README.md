@@ -35,12 +35,12 @@ The application has three main actors.
 
 ### Data Creation and Augmentation
 Data creation and augmentation are pivotal in enhancing the performance and accuracy of the PWP Web Client’s machine learning models. The dataset was collected manually by taking photographs of various garbage dumps and plastic waste items. To ensure comprehensive coverage, XML annotations were created for each image to detail the locations of different objects and brands. To further enhance the model’s robustness, the dataset was augmented using techniques such as rotation, scaling, cropping, and color adjustment. This process artificially increases the diversity of the dataset, helping the model to better generalize across different conditions and image qualities. Additionally, synthetic data may be generated to address rare or challenging scenarios, ensuring that the model remains effective in a wide range of real-world applications.
-<div align="center" style="vertical-align: middle;">
+<div align="center">
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/3fb9e7c3-ae70-4c03-928e-dfeb3f31b016">
   <div>Image of food packets from a supermarket.</div>
 </div>
 </br>
-<div align="center" style="vertical-align: middle;">
+<div align="center">
   <img width="250" height="400" alt="image" src="https://github.com/user-attachments/assets/2cd408ea-12ab-4dc9-9483-65de18d31c0d">
   <img width="250" height="400" alt="image" src="https://github.com/user-attachments/assets/0e12a5f6-5f89-41a5-a299-3de96a5b44d8">
   <div>Annotations for the image provided above.</div>
@@ -66,4 +66,29 @@ When a user uploads an image of a garbage dump, the PWP Web Client initiates a s
 This multi-step process, powered by state-of-the-art AI and ML models, enables the PWP Web Client to effectively track the environmental impact of plastic waste and support efforts to reduce pollution.
 
 ## Result
+<div align="center">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/ee25363f-0e79-44b0-96ea-451ce705c792">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/5055cb21-458a-4d85-9e6b-bc26206fdbaf">
+  <div>Object Identification model identifies wrappers, bottles, etc. in a given image.</div>
+</div>
+</br>
+<div align="center">
+  <img width="720" alt="image" src="https://github.com/user-attachments/assets/6054b53f-d707-4bdd-b7fa-a2c1b5152634">
+  <div>The identification classes and confidence scores get stored in Firebase.</div>
+</div>
+</br></br>
+<div align="center">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/1d20c01b-0f84-4990-88ee-b19ad3dc67f5">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/6093e9d9-f6df-4534-b568-7d33b9a62703">
+  <div>SSD Mobile Net model labels the different brands in a given image.</div>
+</div>
+</br>
+<div align="center">
+  <img width="720" alt="image" src="https://github.com/user-attachments/assets/88249e0f-5969-45c3-a0b8-61fc7eaddfb0">
+  <div>The brand names and confidence scores get stored in Firebase to allow real-time updates on the webpage.</div>
+</div>
 
+## Team
+<a href="https://github.com/ChiragBellara/Plastic_Waste_Profiling/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ChiragBellara/Plastic_Waste_Profiling" />
+</a>
