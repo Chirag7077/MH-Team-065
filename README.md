@@ -24,8 +24,12 @@ This project, completed as part of Project Deep Blue Season 4 organized by Maste
 
 
 ## Implementation
+The application has three main actors. 
+-  **User:** The user plays a crucial role in data collection by capturing photographs of garbage dumps, littered waste, or heaps of garbage in their surroundings. They upload these images to the website, contributing to the database that the system will analyze. This input is essential for identifying and tracking the sources of plastic waste.
+-  **PWP Web Client:** The PWP (Plastic Waste Profiling) application is the analytical engine of the system. It processes the images uploaded by users, utilizing advanced image processing and AI techniques to identify brands associated with the waste. The application then updates existing profiles or creates new ones for these brands, building a comprehensive database of manufacturers and their environmental impact.
+-  **Authorities:** Authorities are the decision-makers who leverage the insights provided by the PWP application. Through access to the web client's dashboard, they can view in-depth visualizations that highlight the volume and types of plastic waste produced by various brands. These insights empower authorities to implement targeted actions and policies aimed at reducing plastic waste, holding manufacturers accountable, and promoting better waste management practices.
 <div align="center">
     <img width="720" alt="image" src="https://github.com/user-attachments/assets/5da4dd75-7329-4d3d-81cd-73b0b36af91e">
-    <div>Workflow of the video translation application.</div>
+    <div>Actors in the Plastic Waste Profiling application.</div>
 
 </div>
