@@ -23,4 +23,9 @@
 This project, completed as part of Project Deep Blue Season 4 organized by Mastek and Majesco, aims to support the Swachh Bharat mission by developing technology that helps local authorities assess the effectiveness of garbage segregation in communities. The project focuses on analyzing images of garbage dumps to identify manufacturers contributing to plastic waste through their packaging. By leveraging advanced image processing and AI techniques, the system can track and create profiles of these manufacturers. The expected outcome is a publicly accessible platform where the environmental footprint of these companies can be monitored, helping to hold them accountable and promote more responsible waste management practices in India.
 
 
-## Workflow
+## Implementation
+<div align="center">
+    <img width="720" alt="image" src="https://github.com/user-attachments/assets/5da4dd75-7329-4d3d-81cd-73b0b36af91e">
+    <div>Workflow of the video translation application.</div>
+
+</div>
